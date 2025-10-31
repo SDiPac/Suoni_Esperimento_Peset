@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tracce Audio</title>
+    <style>
+        /* Imposta lo sfondo a nero per tutta la pagina */
+        body {
+            background-color: #000;
+            display: flex; /* Centra gli elementi */
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Rende la pagina alta quanto lo schermo */
+            margin: 0;
+            flex-direction: column; /* Impila gli elementi verticalmente */
+            font-family: sans-serif;
+            color: white;
+            padding: 20px 0; /* Aggiunge un po' di spazio sopra e sotto */
+        }
+
+        /* Stile opzionale per il lettore audio */
+        audio {
+            width: 80%; /* Occupa l'80% della larghezza dello schermo */
+            max-width: 500px; /* Limita la larghezza massima */
+            filter: invert(1); /* Rende il lettore più visibile su sfondo nero, invertendo i colori */
+            margin-bottom: 20px; /* Aggiunge spazio tra i player */
+        }
+
+        p {
+            margin-bottom: 5px; /* Riduce lo spazio tra il testo e il player */
+        }
+    </style>
+</head>
+<body>
+
+    <p>Rettangolo:</p>
+    <audio controls>
+        <source src="Rettangolo.mp3" type="audio/mpeg">
+        Il tuo browser non supporta l'elemento audio.
+    </audio>
+
+    <p>Quadrato:</p>
+    <audio controls>
+        <source src="Quadrato.mp3" type="audio/mpeg">
+        Il tuo browser non supporta l'elemento audio.
+    </audio>
+
+    <p>Cerchio:</p>
+    <audio controls>
+        <source src="Cerchio.mp3" type="audio/mpeg">
+        Il tuo browser non supporta l'elemento audio.
+    </audio>
+
+    <p>Triangolo:</p>
+    <audio controls>
+        <source src="Triangolo.mp3" type="audio/mpeg">
+        Il tuo browser non supporta l'elemento audio.
+    </audio>
+
+    <p>Trapezio:</p>
+    <audio controls>
+        <source src="Trapezio.mp3" type="audio/mpeg">
+        Il tuo browser non supporta l'elemento audio.
+    </audio>
+    
+</body>
+</html>
